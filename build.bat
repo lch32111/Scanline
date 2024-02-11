@@ -2,7 +2,7 @@
 
 REM setting variables for compile and linking
 cd /D "%~dp0"
-set cl_common= /I..\src\ /I..\local\ /nologo /FC /Z7
+set cl_common= /nologo /FC /Z7
 set cl_debug= call cl /Od %cl_common%
 
 REM prepare build folder
